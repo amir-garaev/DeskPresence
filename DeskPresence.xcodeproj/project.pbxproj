@@ -30,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		AB0A13D52E89794000F33813 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AB2D60C12E8BFB21008946C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = README.md; sourceTree = "<group>"; };
 		ABCB10262E87FD1C0066DA3E /* DeskPresence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskPresence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCB10352E87FD1E0066DA3E /* DeskPresenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeskPresenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCB103F2E87FD1E0066DA3E /* DeskPresenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeskPresenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +40,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB2D60C22E8BFC9E008946C5 /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
+			sourceTree = "<group>";
+		};
 		ABCB10282E87FD1C0066DA3E /* DeskPresence */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DeskPresence;
@@ -84,6 +90,8 @@
 		ABCB101D2E87FD1C0066DA3E = {
 			isa = PBXGroup;
 			children = (
+				AB2D60C22E8BFC9E008946C5 /* docs */,
+				AB2D60C12E8BFB21008946C5 /* README.md */,
 				AB0A13D52E89794000F33813 /* .gitignore */,
 				ABCB105B2E8818A90066DA3E /* OpenCVWrapper.mm */,
 				ABCB10592E88189A0066DA3E /* OpenCVWrapper.h */,
@@ -121,6 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				AB2D60C22E8BFC9E008946C5 /* docs */,
 				ABCB10282E87FD1C0066DA3E /* DeskPresence */,
 			);
 			name = DeskPresence;
